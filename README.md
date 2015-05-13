@@ -1,5 +1,7 @@
 # This is a static website that we will be able to "post" to with github.
 THE ACTUAL SITE IS CONTAINED IN _site
+
+
 This website uses Jekyll. Look it up! It's cool.
 ## Intro
 So this is another idea for a website. It is very far from done, i.e. there's no real styling.
