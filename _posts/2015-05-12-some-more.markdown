@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Here's a little experiment..."
+date: 2015-05-13 01:06:02
+categories: code inclusion
+---
+
+here's a little something something
+
+{% highlight haskell %}
+quicksort :: (Ord a) => [a] -> [a]  
+quicksort [] = []  
+quicksort (x:xs) =   
+    let smallerSorted = quicksort [a | a <- xs, a <= x]  
+        biggerSorted = quicksort [a | a <- xs, a > x]  
+    in  smallerSorted ++ [x] ++ biggerSorted  
+{% endhighlight %}
+
+This code is from [Learn You A Haskell][lyah]
+
+[lyah]: http://learnyouahaskell.com/recursion

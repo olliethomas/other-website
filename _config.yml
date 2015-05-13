@@ -1,0 +1,15 @@
+# Site settings
+title: ProgSoc
+email: contactus@progsoc.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+    We are the University of Sussex programming society.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: ProgSocSussex
+github_username:  us-prog-soc
+
+# Build settings
+markdown: kramdown
+
+# Syntax highlighting
+highlighter: pygments
