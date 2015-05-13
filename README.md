@@ -17,10 +17,10 @@ If you go to the \_posts directory you will see some files with a .markdown type
 in the appropriate section. In effect, all one will have to do to make a post is create a new file in the \_posts section following the format given in markdown and
 it will be included. Look up markdown for more. It's got everything one would want for posting blogs.
 
-The plan is that creating a new file in the correct section **on github** will make a new post so blogging becomes super easy.
+The plan is that creating a new file in the correct section **on github** will make a new post on the live website so blogging becomes super easy.
 New pages are created in the same way.
 
-I plan to make a little script to make creating posts even easier, i.e. it will template them correctly. 
+I plan to make a little script to make creating posts even easier, i.e. it will template them correctly and give it the correct filename.
 
 ## Sweet blog features
 Posts may also include code with syntax highlighting and latex markup (not set up yet). Also images and other media.
