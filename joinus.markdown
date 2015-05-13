@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Join us"!
+title: "Join us!"
 permalink: /joinus/
 ---
 

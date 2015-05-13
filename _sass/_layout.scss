@@ -112,11 +112,11 @@
     justify-content: space-around;
 }
 
-//@include media-query($on-palm) {
-//    .middle {
-//        flex-direction: column;
-//    }
-//}
+.uslogo {
+    width: 100px;
+    height: auto;
+    padding: 0;
+}
 
 /**
  * Page middle. nav.html and content goes here

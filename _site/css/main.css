@@ -192,6 +192,11 @@ pre {
   flex-wrap: wrap;
   justify-content: space-around; }
 
+.uslogo {
+  width: 100px;
+  height: auto;
+  padding: 0; }
+
 /**
  * Page middle. nav.html and content goes here
  */
