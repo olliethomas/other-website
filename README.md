@@ -37,4 +37,3 @@ Posts may also include code with syntax highlighting and latex markup (not set u
 The css for the site uses SCSS which is
 basiclly a better version of CSS with much needed features, e.g. varibles. It's a superset of CSS so one should be able to pick it up pretty quickly. 
 Posts and pages follow a template which will be styled appropriatly. If I say so myself i think the styling is layed out in a super simple way.
-
