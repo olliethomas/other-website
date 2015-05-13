@@ -12,29 +12,13 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    //font-family: $base-font-family;
-    //font-size: $base-font-size;
-    //line-height: $base-line-height;
-    //font-weight: 300;
-    //color: $text-color;
-    //background-color: $background-color;
-    //-webkit-text-size-adjust: 100%;
+    font-family: $base-font-family;
 }
-
 /**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-//h1, h2, h3, h4, h5, h6,
-//p, blockquote, pre,
-//ul, ol, dl, figure,
-//%vertical-rhythm {
-//    //margin-bottom: $spacing-unit / 2;
-//}
-
-/**
- * I//mages
+ * Images
  */
 img {
+    padding: 20px;
     max-width: 100%;
     vertical-align: middle;
 }
@@ -68,24 +52,19 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 400;
+    padding: $paddingsize;
 }
 
 /**
  * Links
  */
 a {
-    //color: $brand-color;
-    //text-decoration: none;
+    &:visited {
+    }
 
-    //&:visited {
-    //    color: darken($brand-color, 15%);
-    //}
-
-    //&:hover {
-    //    color: $text-color;
-    //    text-decoration: underline;
-    //}
+    &:hover {
+    }
 }
 
 /**
@@ -115,19 +94,19 @@ code {
     //background-color: #eef;
 }
 
-code {
-    padding: 1px 5px;
-}
-
 canvas {
+    background-color: $lightgrey;
     position: fixed;
     z-index: 1;
     display: block;
 }
 
+code {
+}
+
 pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
+    padding: $paddingsize;
+    overflow-x: auto;
 
     > code {
         border: 0;
@@ -172,15 +151,9 @@ pre {
  * Icons
  */
 .icon {
-
-    //> svg {
-    //    display: inline-block;
-    //    width: 16px;
-    //    height: 16px;
-    //    vertical-align: middle;
-
-    //    path {
-    //        fill: $grey-color;
-    //    }
-    //}
+    padding: 0px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
 }

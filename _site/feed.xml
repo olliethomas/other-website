@@ -2,13 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ProgSoc</title>
-    <description>We are the University of Sussex programming society.
+    <description>We are the University of Sussex programming society. Short description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2015 02:03:38 +0100</pubDate>
-    <lastBuildDate>Wed, 13 May 2015 02:03:38 +0100</lastBuildDate>
+    <link>http://yourdomain.com/other-website/</link>
+    <atom:link href="http://yourdomain.com/other-website/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 13 May 2015 19:29:08 +0100</pubDate>
+    <lastBuildDate>Wed, 13 May 2015 19:29:08 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>How to post on this website!</title>
+        <description>&lt;p&gt;So you want to post on this website huh? Well that’s pretty easy, let me show you how. 
+This site is hosted by &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; with &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. It’s really
+just a bunch of HTML templates that are generated to HTML. This document that
+I am writing right now is in a variant of &lt;a href=&quot;http://kramdown.gettalong.org/&quot;&gt;Markdown&lt;/a&gt;. Once I upload 
+this document to the correct directory on the GitHub page it will be automatically
+turned into a blog post in HTML. Cool huh?&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-post&quot;&gt;How to Post&lt;/h2&gt;
+&lt;p&gt;So the first thing to do is to navigate your way to &lt;a href=&quot;https://github.com/sussex-progsoc/other-website/tree/gh-pages&quot;&gt;our repository&lt;/a&gt;. Log in
+as the account on the Facebook page to edit, or create your own and I will invite
+you to the organization. Make
+sure you are on the &lt;strong&gt;gh-pages&lt;/strong&gt; branch (Have a look in the top left hand corner).
+Click on the &lt;strong&gt;_posts&lt;/strong&gt; directory and you will see a couple of markdown documents.
+When you open these documents GitHub will automatically render them so make sure you 
+click on the &lt;strong&gt;Raw&lt;/strong&gt; button in the top right. You can see the basic layout of one 
+of these posts. On the top you have the post meta information, like title and author. 
+The most important bit is the &lt;strong&gt;layout&lt;/strong&gt; tag. That tells Jekyll that this is a blog
+post.&lt;/p&gt;
+
+&lt;p&gt;Go ahead and go back and the little plus sign here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/other-website/assets/blogpics/plus.png&quot; alt=&quot;git make new file&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can go ahead and create a new markdown file. Use the existing files as a template
+to make your very own post. You can do all sorts of styling in markdown so have a look.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-inclusion&quot;&gt;Code inclusion&lt;/h2&gt;
+&lt;p&gt;You can also include code like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Blog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;writeup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;website&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Blog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;writeup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Website&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;writeup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;writeup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;website&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;website&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;website&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;upload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;writeup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Cool huh? I imagine that should come in handy!&lt;/p&gt;
+
+&lt;h2 id=&quot;go-write-some-stuff&quot;&gt;Go write some stuff!&lt;/h2&gt;
+&lt;p&gt;You can also push the &lt;strong&gt;gh-pages&lt;/strong&gt; branch of the progsoc repository to upload a 
+post. I’ll write about that soon.&lt;/p&gt;
+
+&lt;p&gt;Good luck posting!&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 13 May 2015 19:33:41 +0100</pubDate>
+        <link>http://yourdomain.com/other-website/internal/posting/2015/05/13/intro-to-website.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/internal/posting/2015/05/13/intro-to-website.html</guid>
+        
+        
+        <category>internal</category>
+        
+        <category>posting</category>
+        
+      </item>
     
       <item>
         <title>Here&#39;s a little experiment...</title>
@@ -25,8 +90,8 @@
 
 </description>
         <pubDate>Wed, 13 May 2015 02:06:02 +0100</pubDate>
-        <link>http://yourdomain.com/code/inclusion/2015/05/13/some-more.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/code/inclusion/2015/05/13/some-more.html</guid>
+        <link>http://yourdomain.com/other-website/code/inclusion/2015/05/13/some-more.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/code/inclusion/2015/05/13/some-more.html</guid>
         
         
         <category>code</category>
@@ -41,8 +106,8 @@
 
 </description>
         <pubDate>Wed, 13 May 2015 01:52:44 +0100</pubDate>
-        <link>http://yourdomain.com/first/post/2015/05/13/felix-own-post.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/first/post/2015/05/13/felix-own-post.html</guid>
+        <link>http://yourdomain.com/other-website/first/post/2015/05/13/felix-own-post.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/first/post/2015/05/13/felix-own-post.html</guid>
         
         
         <category>first</category>
@@ -69,8 +134,8 @@
 
 </description>
         <pubDate>Tue, 12 May 2015 23:53:06 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/05/12/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/05/12/welcome-to-jekyll.html</guid>
+        <link>http://yourdomain.com/other-website/jekyll/update/2015/05/12/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/jekyll/update/2015/05/12/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
