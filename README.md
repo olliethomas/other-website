@@ -9,8 +9,10 @@ So the idea here is that there are a bunch of html templates and markdown files 
 The javascript is slow and needs an "off" button, for one. But I think it is very promising.
 The website also works without javascript.
 
+The \_site directory is where the compiled files live. You cannot clone them browse them on your home machine but you can look at the site at the link above.
+
 ## Liquid templating
-Liquid is a little templating language. One of its main uses is to include HTML templates into other files. This is then compiled into the big html document when the site is built.
+Liquid is a little templating language. One of its main uses is to include HTML templates into other files. This is then compiled into the big html document when the site is built. They are the bits that look like {{ <stuff> }} or {% <commands> %} dotted around in the html outside of the \_site directory.
 
 ## Static posting / markdown
 If you go to the \_posts directory you will see some files with a .markdown type, this is a super simple language that is then converted to html by the site and put
