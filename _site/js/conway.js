@@ -8,11 +8,10 @@
     var width;
     var height;
     
-    const cellSize = 25;
+    const cellSize = 50;
 
     var canvas = $("#left")[0];
     var ctx = canvas.getContext("2d");
-    $('#left').css('background-color', '#ebdbb2');
 
     (function() {
         window.addEventListener("resize", resizeCanvas, false);
@@ -92,10 +91,10 @@
             }
         }
         ctx.shadowBlur = 20;
-        ctx.shadowColor = "#282828";
-        drawCells(dead, "#282828");
-        ctx.shadowColor = "#689d6a";
-        drawCells(live, "#689d6a");
+        ctx.shadowColor = "#282a2e";
+        drawCells(dead, "#282a2e");
+        ctx.shadowColor = "#5f819d";
+        drawCells(live, "#5f819d");
         live = nextLive;
         nextLive = {};
     }
@@ -106,13 +105,13 @@
         //    //live.push(new Coord(i, Math.round(boardHeight / 2)));
         //}
         var toAdd = [
-            new Coord(21, 20),
-            new Coord(20, 22),
-            new Coord(21, 22),
-            new Coord(24, 22),
-            new Coord(25, 22),
-            new Coord(26, 22),
-            new Coord(23, 21),
+            new Coord(11, 10),
+            new Coord(10, 12),
+            new Coord(11, 12),
+            new Coord(14, 12),
+            new Coord(15, 12),
+            new Coord(16, 12),
+            new Coord(13, 11),
             ];
         toAdd.forEach(function(c) {
             live[c] = c;

@@ -1,4 +1,5 @@
 ---
+author: "Felix Bowman"
 layout: post
 title: This is my title
 date: 2015-05-13 00:52:44
