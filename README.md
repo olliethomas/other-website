@@ -1,8 +1,14 @@
 # This is a static website that we will be able to "post" to with github.
+THE ACTUAL SITE IS CONTAINED IN _site
+This website uses Jekyll. Look it up! It's cool.
 ## Intro
 So this is another idea for a website. It is very far from done, i.e. there's no real styling.
+So the idea here is that there are a bunch of html templates as markdown files that are compiled into a static we site. So you have a very flexible and easy blogging platform / CMS with the security issues.
 The javascript is slow and needs an "off" button, for one. But I think it is very promising.
 The website also works without javascript.
+
+## Liquid templating
+Liquid is a little templating language. One of its main uses is to include HTML templates into other files. This is then compiled into the big html focument when the sit is built.
 
 ## Static posting / markdown
 If you go to the \_posts directory you will see some files with a .markdown type, this is a super simple language that is then converted to html by the site and put
