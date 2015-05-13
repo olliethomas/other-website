@@ -2,11 +2,12 @@
 ## Intro
 So this is another idea for a website. It is very far from done, i.e. there's no real styling.
 The javascript is slow and needs an "off" button, for one. But I think it is very promising.
+The website also works without javascript.
 
 ## Static posting / markdown
 If you go to the \_posts directory you will see some files with a .markdown type, this is a super simple language that is then converted to html by the site and put
-in the appropriate section. In effect, all one will have to do to make a post is create a new file in the \_posts section following the format given in markdown 
-it will be included. Look up markdown for more.
+in the appropriate section. In effect, all one will have to do to make a post is create a new file in the \_posts section following the format given in markdown and
+it will be included. Look up markdown for more. It's got everything one would want for posting blogs.
 
 The plan is that creating a new file in the correct section will make a new post so blogging becomes super easy.
 New pages are created in the same way.
