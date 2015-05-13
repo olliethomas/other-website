@@ -1,6 +1,7 @@
 # This is a static website that we will be able to "post" to with github.
 test the website here http://sussex-progsoc.github.io/other-website/
 
+The only changes that will be reflected in the website will be on the gh-pages branch.
 
 This website uses Jekyll. Look it up! It's cool.
 ## Intro
@@ -10,6 +11,11 @@ The javascript is slow and needs an "off" button, for one. But I think it is ver
 The website also works without javascript.
 
 The \_site directory is where the compiled files live. You cannot clone them browse them on your home machine but you can look at the site at the link above.
+
+## Content
+So all you have to do to add content is to learn markdown and add it to the \_posts section or add a markdown file the the main directory to add a new page. (e.g. the about and projects pages were created this way). Once the file is added the page at the link about should automagically update itself.
+
+Obvioulsy we need a load of content so feel free to contribute!
 
 ## Liquid templating
 Liquid is a little templating language. One of its main uses is to include HTML templates into other files. This is then compiled into the big html document when the site is built. They are the bits that look like {{ <stuff> }} or {% <commands> %} dotted around in the html outside of the \_site directory.
