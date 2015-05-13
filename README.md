@@ -1,5 +1,5 @@
 # This is a static website that we will be able to "post" to with github.
-THE ACTUAL SITE IS CONTAINED IN \_site
+test the website here [progsoc][http://sussex-progsoc.github.io/other-website/]
 
 
 This website uses Jekyll. Look it up! It's cool.
