@@ -1,0 +1,27 @@
+---
+layout: page
+layout-order: 7
+title: Our Members
+---
+
+<h2>
+    Committee
+</h2>
+<ul>
+    {% for member in site.data.members.commitee %}
+    <li>
+        <h3>
+            {{ member.title }}
+        </h3>
+        {{ member.name }}<br>
+        {% if member.github %}
+        <a href="https://github.com/{{ member.github }}">
+            {{ member.name }}'s Github
+        </a>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+<h2>
+    Members
+</h2>

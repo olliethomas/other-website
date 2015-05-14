@@ -1,5 +1,6 @@
 ---
 layout: page
+layout-order: 8
 title: "Join us!"
 permalink: /joinus/
 ---

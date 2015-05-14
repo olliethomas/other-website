@@ -51,7 +51,7 @@
     flex-basis: $header-nav-height;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-center;
     line-height: $header-nav-height;    // Vertically centers the text
@@ -60,9 +60,10 @@
         color: $foreground;
         margin-left: $nav-bar-spacing;
     }
+}
 
-    @include media-query($on-palm) {
-    }
+.pause {
+    color: $foreground;
 }
 
 /**
@@ -96,9 +97,11 @@
 
 .contact-list,
 .description-list,
+.sponsor-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    padding: $paddingsize;
 }
 
 .footer-link {
@@ -113,9 +116,9 @@
 }
 
 .uslogo {
+    padding: 0px;
     width: 100px;
     height: auto;
-    padding: 0;
 }
 
 /**
@@ -144,10 +147,6 @@
     flex: 3;
     order: 1;
     //flex-basis: $content-section-width;
-}
-
-.page-heading {
-    //font-size: 20px;
 }
 
 .post-list {

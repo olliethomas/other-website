@@ -1,0 +1,23 @@
+# Indetation is important!
+commitee:
+    - name: "Dan A."
+      title: "President"
+    - name: "Kieran"
+      title: "Vice President"
+    - name: "Maddi"
+      title: "Treasurer"
+    - name: "Oliver"
+      title: "Chairperson"
+      github: "olliethomas"
+    - name: "Felix"
+      title: "Technical Officer"
+      github: "felixgb"
+    - name: "Dan B."
+      title: "Communications and Media"
+    - name: "Josh"
+      title: "Networking"
+    - name: "Chloe"
+      title: "Networking"
+
+members: 
+

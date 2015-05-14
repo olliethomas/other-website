@@ -67,6 +67,10 @@ a {
     }
 }
 
+p {
+    padding-bottom: $paddingsize;
+}
+
 /**
  * Blockquotes
  */
@@ -125,3 +129,11 @@ pre {
     height: 16px;
     vertical-align: middle;
 }
+
+/**
+ * Non - post or content text sitewide
+ */
+.text {
+}
+
+

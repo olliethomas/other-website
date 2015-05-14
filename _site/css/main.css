@@ -50,6 +50,9 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
+p {
+  padding-bottom: 10px; }
+
 /**
  * Blockquotes
  */
@@ -80,6 +83,9 @@ pre {
   height: 16px;
   vertical-align: middle; }
 
+/**
+ * Non - post or content text sitewide
+ */
 /**
  * Global wrappers
  */
@@ -124,13 +130,16 @@ pre {
   flex-basis: 50px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-center;
   line-height: 50px; }
   .site-nav .page-link {
     color: #c5c8c6;
     margin-left: 20px; }
+
+.pause {
+  color: #c5c8c6; }
 
 /**
  * Site nav
@@ -157,9 +166,11 @@ pre {
 
 .contact-list,
 .description-list,
+.sponsor-list,
 .social-media-list {
   list-style: none;
-  margin-left: 0; }
+  margin-left: 0;
+  padding: 10px; }
 
 .footer-link {
   color: #c5c8c6; }
@@ -171,9 +182,9 @@ pre {
   justify-content: space-around; }
 
 .uslogo {
+  padding: 0px;
   width: 100px;
-  height: auto;
-  padding: 0; }
+  height: auto; }
 
 /**
  * Page middle. nav.html and content goes here

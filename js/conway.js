@@ -10,8 +10,21 @@
     
     const cellSize = 50;
 
+    var paused = false;
+
     var canvas = $("#left")[0];
     var ctx = canvas.getContext("2d");
+
+    $(".pause").click(function () {
+        if (paused) {
+            paused = false;
+            animate();
+            $(".pause").text("Pause background");
+        } else { 
+            paused = true;
+            $(".pause").text("Unpause background");
+        }
+    });
 
     (function() {
         window.addEventListener("resize", resizeCanvas, false);
@@ -35,9 +48,11 @@
     function animate() {
         ctx.clearRect(0, 0, width, height);
         go();
-        setTimeout(function() {
-            window.requestAnimationFrame(animate);
-        }, 60);
+        if (!paused) {
+            setTimeout(function() {
+                window.requestAnimationFrame(animate);
+            }, 60);
+        }
     }
 
     function Coord(x, y) {

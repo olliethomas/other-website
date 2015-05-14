@@ -1,10 +1,12 @@
 <header class="site-header">
     <div class="site-title-wrapper">
         <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <a href="#" class="pause page-link" title="Pause">Pause background</a>
     </div>
     <div class="site-nav">
         <div class="trigger">
-            {% for page in site.pages %}
+            {% assign pages = site.pages | sort:"layout-order" %}
+            {% for page in pages %}
             {% if page.title %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %}

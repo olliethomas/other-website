@@ -1,18 +1,16 @@
 ---
-layout: default
+layout: page
+layout-order: 4
 title: Problem Sets
 ---
 
-<div class="home">
-    <h1 class="page-heading">Problems</h1>
-    <ul class="post-list">
-        {% for prob in site.problems %}
-        <li>
-            <span class="post-meta"></span>
-            <h2>
-                <a class="post-link" href="{{ prob.url | prepend: site.baseurl }}">{{ prob.title }}</a>
-            </h2>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
+<ul class="post-list">
+    {% for prob in site.problems %}
+    <li>
+        <span class="post-meta"></span>
+        <h2>
+            <a class="post-link" href="{{ prob.url | prepend: site.baseurl }}">{{ prob.title }}</a>
+        </h2>
+    </li>
+    {% endfor %}
+</ul>
