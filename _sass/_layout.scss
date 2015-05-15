@@ -47,10 +47,18 @@
 
 .site-nav {
     order: 2;
-    background: $background;
-    flex-basis: $header-nav-height;
     display: flex;
-    flex-direction: row;
+    background: $background;
+    @media (min-width: 800px) {
+        flex-basis: $header-nav-height;
+    
+        flex-direction: row;
+    }
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-center;
