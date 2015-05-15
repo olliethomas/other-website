@@ -28,7 +28,9 @@
  * Site header
  */
 .site-header {
-    flex-basis: $headerheight;
+    @media (min-width: 800px) {
+        flex-basis: $headerheight;
+    }
     background: $darkcyan;
     height: 100%;
     display: flex;
