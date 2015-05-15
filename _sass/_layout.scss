@@ -57,6 +57,7 @@
 
     @media (max-width: 800px) {
         flex-direction: column;
+       
     }
 
     flex-wrap: wrap;
@@ -67,6 +68,7 @@
     .page-link {
         color: $foreground;
         margin-left: $nav-bar-spacing;
+        flex: 1;
     }
 }
 
