@@ -318,7 +318,9 @@ pre {
 .post-list-nav {
   float: left;
   width: 20%;
-  padding: 0; }
+  padding: 0;
+  overflow: hidden;
+  overflow-wrap: break-word; }
 
 /**
  * Syntax highlighting styles

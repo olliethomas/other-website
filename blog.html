@@ -1,25 +1,15 @@
 ---
-collection: problems
 layout: page
 layout-order: 2
 title: Blog posts
 ---
 
 <ul class="post-list">
-{% for category in site.categories %}
-    <li>
-        <a name="{{ category | first}}">{{ category | first }}</a>
-        <ul class="post-list">
-            {% for posts in category %}
-                {% for post in posts %}
-                <li>
-                    <a href="{{ post.url | prepend: site.baseurl }}">
-                        {{ post.title }}
-                    </a>
-                </li>
-                {% endfor %}
-            {% endfor %}
-        </ul>
-    </li>
-{% endfor %}
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+            </a>
+        </li>
+    {% endfor %}            
 </ul>

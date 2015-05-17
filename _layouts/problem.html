@@ -4,11 +4,11 @@ layout: default
 
 <div class="post-list-nav">
     <ul class="post-list">
-    {% for post in site.posts %}
+    {% for prob in site.problems %}
     <li>
         <span class="post-meta"></span>
         <h2>
-            <a class="post-link" href="{{ prob.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="post-link" href="{{ prob.url | prepend: site.baseurl }}">{{ prob.title }}</a>
         </h2>
     </li>
     {% endfor %}
