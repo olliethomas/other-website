@@ -246,7 +246,8 @@ pre {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  flex: 2; }
+  flex: 2;
+  background: #c5c8c6; }
   @media (max-width: 800px) {
     .middle {
       flex-direction: column; } }
@@ -291,8 +292,13 @@ pre {
 /**
  * Posts
  */
+.post {
+  float: right;
+  width: 80%;
+  padding: 0; }
+
 .post-header {
-  margin-bottom: 30px; }
+  /*margin-bottom: $spacing-unit;*/ }
 
 .post-title {
   font-size: 32px;
@@ -300,13 +306,19 @@ pre {
   line-height: 1; }
 
 .post-content {
-  /*margin-bottom: $spacing-unit;*/ }
+  /*margin-bottom: $spacing-unit;*/
+  padding-left: 10px; }
   .post-content h2 {
     font-size: 28px; }
   .post-content h3 {
     font-size: 22px; }
   .post-content h4 {
     font-size: 18px; }
+
+.post-list-nav {
+  float: left;
+  width: 20%;
+  padding: 0; }
 
 /**
  * Syntax highlighting styles

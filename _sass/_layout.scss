@@ -182,6 +182,7 @@
     padding: 0;
     margin: 0;
     flex: 2;
+    background: $foreground;
     
     @media (max-width: 800px) {
         flex-direction: column;
@@ -239,8 +240,14 @@
 /**
  * Posts
  */
+.post {
+    float: right;
+    width: 80%;   
+    padding: 0;
+}
+
 .post-header {
-    margin-bottom: $spacing-unit;
+    /*margin-bottom: $spacing-unit;*/
 }
 
 .post-title {
@@ -251,7 +258,8 @@
 
 .post-content {
     /*margin-bottom: $spacing-unit;*/
-
+    padding-left: 10px;
+    
     h2 {
         font-size: 28px;
     }
@@ -263,4 +271,10 @@
     h4 {
         font-size: 18px;
     }
+}
+
+.post-list-nav {
+    float:left;
+    width: 20%;   
+    padding: 0;
 }
