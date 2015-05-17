@@ -1,15 +1,20 @@
-<header class="site-header">
-    
-    <div class="site-nav">
-       <ul class="navbar-list">
-           {% assign pages = site.pages | sort:"layout-order" %}
-           {% for page in pages %}
-           {% if page.title %}
-           <li> 
-               <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-           </li>
-           {% endif %}
-           {% endfor %}
-        </ul>
+<header class="header-wrapper">
+    <div class="header-logo">
+        <a href="index.html" id="logoLink">
+            <svg id="logo">
+                <circle id="circle" cx="50%" cy="50%" r="50px" fill="#2E8AE6" />
+                <text x="10%" y="55%" font-family="sans-serif" fill="white">{Prog_Soc}</text>
+            </svg>
+       </a>
+    </div>
+    <div class="header-navbar">
+       {% assign pages = site.pages | sort:"layout-order" %}
+       {% for page in pages %}
+       {% if page.title %}
+       <div class="header-navbar-element"> 
+           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+       </div>
+       {% endif %}
+       {% endfor %}
     </div>
 </header>

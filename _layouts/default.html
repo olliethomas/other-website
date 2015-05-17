@@ -6,24 +6,11 @@
         <canvas id="left" width="640" height="480"></canvas>
                 
         <div class="wrapall">    
-            
-            <div class="centered">
-                
-                {% include header.html %}
-                
-                <div class="middle">
-                
-                    <!--<div class="nav-wrapper">
-                        {% include nav.html %}
-                    </div>-->
-                    {{ content }}
-                    <!--<div class="page-content">
-                        
-                    </div>-->
-                </div>
-                
-                {% include footer.html %}
+            {% include header.html %}
+            <div class="content">
+                {{ content }}
             </div>
+            {% include footer.html %}
             {% include onOff.html %}
         </div>
     </body>
