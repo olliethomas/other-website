@@ -2,8 +2,7 @@
  * Global wrappers
  */
 .wrapall {
-    width: 100%;
-    margin: 0;
+    margin: $std-space;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -40,15 +39,20 @@
 }
 
 .site-title {
+    padding: 1%;
 }
 
 .site-title-wrapper {
-    order: 1;
+    /*order: 1;*/
     flex-grow: 2;
+    bottom: 0;
+    right: 0;
+    padding-right: $std-space;
+    text-align: right;
 }
 
 .site-nav {
-    order: 2;
+    /*order: 2;*/
     display: flex;
     background: $background;
     @media (min-width: 800px) {
@@ -88,6 +92,16 @@
     flex: 1;
 }
 
+.navbar-list {
+    list-style: none;
+    margin-left: 0;
+    /*padding: $paddingsize;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 /**
  * Site footer
  */
@@ -109,11 +123,26 @@
 
 .contact-list,
 .description-list,
-.sponsor-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
-    padding: $paddingsize;
+    /*padding: $paddingsize;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact-wrapper {
+    width: 100%;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact-element {
+    min-width:290px;  
 }
 
 .footer-link {
@@ -127,6 +156,16 @@
     justify-content: space-around;
 }
 
+.sponsors-area {
+    width: 100%;
+    padding: $paddingsize;
+}
+.sponsor-list {
+    list-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+
 .uslogo {
     padding: 0px;
     width: 100px;
@@ -137,8 +176,8 @@
  * Page middle. nav.html and content goes here
  */
 .middle {
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;
+    justify-content: space-between;*/
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
@@ -155,6 +194,12 @@
 
 .middle > * {
     padding: $paddingsize;
+    /**/
+    background: $foreground;
+    color: $background;
+    /*flex: 3;*/
+    order: 1;
+    //flex-basis: $content-section-width;
 }
 
 /**
@@ -205,7 +250,7 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    /*margin-bottom: $spacing-unit;*/
 
     h2 {
         font-size: 28px;

@@ -8,12 +8,13 @@
     var width;
     var height;
     
-    const cellSize = 50;
+    const cellSize = 25;
 
     var paused = false;
 
     var canvas = $("#left")[0];
     var ctx = canvas.getContext("2d");
+    $('#left').css('background-color', '#ebdbb2');
 
     $(".pause").click(function () {
         if (paused) {
@@ -106,8 +107,8 @@
             }
         }
         ctx.shadowBlur = 20;
-        ctx.shadowColor = "#282a2e";
-        drawCells(dead, "#282a2e");
+        ctx.shadowColor = "darkgray";
+        drawCells(dead, "darkgray");
         ctx.shadowColor = "#5f819d";
         drawCells(live, "#5f819d");
         live = nextLive;

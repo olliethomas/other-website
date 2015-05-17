@@ -1,54 +1,64 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <h2 class="footer-heading">{{ site.title }}</h2>
-    <div class="footer-col-wrapper">
-      <div>
-        <ul class="contact-list">
-          <li>
-              <a class="footer-link" href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-              <span class="icon  icon--github">
-                  <img class="icon" src="{{ site.baseurl}}/assets/icons/github.png" alt="github icon">
-              </span>
-            <a class="footer-link" href="https://github.com/{{ site.github_username }}">
-              <span class="username">{{ site.github_username }}</span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.twitter_username %}
-          <li>
-              <span class="icon  icon--twitter">
-                  <img class="icon" src="{{ site.baseurl}}/assets/icons/twitter.png" alt="twiiter icon">
-              </span>
-            <a class="footer-link" href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="username">{{ site.twitter_username }}</span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-      <div>
-          <ul class="description-list">
-              <li>
-                  <p class="text">{{ site.description }}</p>
-              </li>
-          </ul>
-      </div>
-      <div>
-          <ul class="sponsor-list">
-              <li>
-                  <a href="http://www.sussex.ac.uk/">
-                      <img class="uslogo" src="{{ site.baseurl }}/assets/icons/uslogo.png" alt="University of Sussex logo"/>
-                  </a>
-              </li>
-          </ul>
-      </div>
-  </div>
-  </div>
+    <div class="wrapper">
+        <div class="footer-col-wrapper">
+            <div class="contact-wrapper">
+                <ul class="contact-list">
+                    {% if site.facebook_page %}
+                    <li class="contact-element">
+                        <div>
+                            <img class="icon" src="{{ site.baseurl}}/assets/icons/email.png" alt="email icon">
+                            <a class="footer-link" href="mailto:{{ site.email }}">
+                                <span class="username">{{ site.email }}</span>
+                            </a>
+                        </div>
+                    </li>
+                    {% endif %}
+                    {% if site.facebook_page %}
+                    <li class="contact-element">
+                        <div>
+                            <img class="icon" src="{{ site.baseurl}}/assets/icons/facebook.png" alt="facebook icon">
+                            <a class="footer-link" href="{{ site.facebook_page }}">
+                                <span class="username">{{ site.facebook_page }}</span>
+                            </a>
+                        </div>    
+                    </li>
+                    {% endif %}
+                    {% if site.github_username %}
+                    <li class="contact-element">
+                        <div>
+                            <img class="icon" src="{{ site.baseurl}}/assets/icons/github.png" alt="github icon">
+                            <a class="footer-link" href="https://github.com/{{ site.github_username }}">
+                                <span class="username">{{ site.github_username }}</span>
+                            </a>
+                        </div>
+                    </li>
+                    {% endif %}
+                    {% if site.twitter_username %}
+                    <li class="contact-element">
+                        <div>
+                            <img class="icon" src="{{ site.baseurl}}/assets/icons/twitter.png" alt="twiiter icon">
+                            <a class="footer-link" href="https://twitter.com/{{ site.twitter_username }}">
+                                <span class="username">{{ site.twitter_username }}</span>
+                            </a>
+                        </div>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+            <!--<div>
+                <ul class="social-media-list">
+                    
+                </ul>
+            </div>-->
+            <div class="sponsors-area">
+                <ul class="sponsor-list">
+                    <li>
+                        <a href="http://www.sussex.ac.uk/">
+                            <img class="uslogo" src="{{ site.baseurl }}/assets/icons/uslogo.png" alt="University of Sussex logo"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>

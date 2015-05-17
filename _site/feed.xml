@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ProgSoc</title>
-    <description>We are the University of Sussex programming society. Short description.
+    <description>We are the University of Sussex Programming Society
 </description>
     <link>http://yourdomain.com/other-website/</link>
     <atom:link href="http://yourdomain.com/other-website/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 May 2015 20:07:00 +0100</pubDate>
-    <lastBuildDate>Thu, 14 May 2015 20:07:00 +0100</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sun, 17 May 2015 01:18:38 +0100</pubDate>
+    <lastBuildDate>Sun, 17 May 2015 01:18:38 +0100</lastBuildDate>
+    <generator>Jekyll v2.2.0</generator>
     
       <item>
         <title>How to post on this website!</title>
@@ -29,7 +29,7 @@ When you open these documents GitHub will automatically render them so make sure
 click on the &lt;strong&gt;Raw&lt;/strong&gt; button in the top right. You can see the basic layout of one 
 of these posts. On the top you have the post meta information, like title and author. 
 The most important bit is the &lt;strong&gt;layout&lt;/strong&gt; tag. That tells Jekyll that this is a blog
-post.&lt;/p&gt;
+post. &lt;/p&gt;
 
 &lt;p&gt;Go ahead and go back and the little plus sign here:&lt;/p&gt;
 
@@ -59,7 +59,7 @@ to make your very own post. You can do all sorts of styling in markdown so have 
 
 &lt;h2 id=&quot;go-write-some-stuff&quot;&gt;Go write some stuff!&lt;/h2&gt;
 &lt;p&gt;You can also push the &lt;strong&gt;gh-pages&lt;/strong&gt; branch of the progsoc repository to upload a 
-post. I’ll write about that soon.&lt;/p&gt;
+post. I’ll write about that soon. &lt;/p&gt;
 
 &lt;p&gt;Good luck posting!&lt;/p&gt;
 

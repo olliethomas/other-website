@@ -11,7 +11,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Source Code Pro"; }
+  font-family: "Source Code Pro";
+  height: 100vh;
+  width: 100%; }
 
 /**
  * Images
@@ -62,8 +64,12 @@ p {
 canvas {
   background-color: #707880;
   position: fixed;
-  z-index: 1;
-  display: block; }
+  z-index: -1;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
 
 pre {
   padding: 10px;
@@ -90,8 +96,7 @@ pre {
  * Global wrappers
  */
 .wrapall {
-  width: 100%;
-  margin: 0;
+  margin: 5%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -112,31 +117,46 @@ pre {
  * Site header
  */
 .site-header {
-  flex-basis: 200px;
   background: #5e8d87;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0; }
+  @media (min-width: 800px) {
+    .site-header {
+      flex-basis: 50px; } }
+
+.site-title {
+  padding: 1%; }
 
 .site-title-wrapper {
-  order: 1;
-  flex-grow: 2; }
+  /*order: 1;*/
+  flex-grow: 2;
+  bottom: 0;
+  right: 0;
+  padding-right: 5%;
+  text-align: right; }
 
 .site-nav {
-  order: 2;
-  background: #1d1f21;
-  flex-basis: 50px;
+  /*order: 2;*/
   display: flex;
-  flex-direction: row;
+  background: #1d1f21;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-center;
   line-height: 50px; }
+  @media (min-width: 800px) {
+    .site-nav {
+      flex-basis: 50px;
+      flex-direction: row; } }
+  @media (max-width: 800px) {
+    .site-nav {
+      flex-direction: column; } }
   .site-nav .page-link {
     color: #c5c8c6;
-    margin-left: 20px; }
+    margin-left: 20px;
+    flex: 1; }
 
 .pause {
   color: #c5c8c6; }
@@ -149,6 +169,15 @@ pre {
   background: #a4a4a4;
   order: 2;
   flex: 1; }
+
+.navbar-list {
+  list-style: none;
+  margin-left: 0;
+  /*padding: $paddingsize;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 /**
  * Site footer
@@ -166,11 +195,24 @@ pre {
 
 .contact-list,
 .description-list,
-.sponsor-list,
 .social-media-list {
   list-style: none;
   margin-left: 0;
-  padding: 10px; }
+  /*padding: $paddingsize;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.contact-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.contact-element {
+  min-width: 290px; }
 
 .footer-link {
   color: #c5c8c6; }
@@ -181,6 +223,15 @@ pre {
   flex-wrap: wrap;
   justify-content: space-around; }
 
+.sponsors-area {
+  width: 100%;
+  padding: 10px; }
+
+.sponsor-list {
+  list-style: none;
+  text-align: right;
+  padding-right: 10px; }
+
 .uslogo {
   padding: 0px;
   width: 100px;
@@ -190,21 +241,31 @@ pre {
  * Page middle. nav.html and content goes here
  */
 .middle {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
+  /*display: flex;
+  justify-content: space-between;*/
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
   flex: 2; }
+  @media (max-width: 800px) {
+    .middle {
+      flex-direction: column; } }
+  @media (min-width: 800px) {
+    .middle {
+      flex-direction: row; } }
 
 .middle > * {
-  padding: 10px; }
+  padding: 10px;
+  /**/
+  background: #c5c8c6;
+  color: #1d1f21;
+  /*flex: 3;*/
+  order: 1; }
 
 /**
  * Page content
  */
 .page-content {
-  min-width: 600px;
   background: #c5c8c6;
   color: #1d1f21;
   flex: 3;
@@ -239,7 +300,7 @@ pre {
   line-height: 1; }
 
 .post-content {
-  margin-bottom: 30px; }
+  /*margin-bottom: $spacing-unit;*/ }
   .post-content h2 {
     font-size: 28px; }
   .post-content h3 {

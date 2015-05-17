@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 layout-order: 1
 title: ProgSoc
 ---
