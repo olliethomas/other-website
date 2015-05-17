@@ -146,8 +146,8 @@ pre {
     flex: 1; }
 
 .header-navbar-element {
-  display: inline-block;
-  min-width: 75px; }
+  display: table-cell;
+  vertical-align: middle; }
 
 .pause {
   color: white; }
@@ -188,9 +188,9 @@ pre {
 .header-navbar {
   text-align: center;
   margin-left: 180px;
-  line-height: 120px;
   overflow: overlay;
-  height: 120px; }
+  height: 120px;
+  display: table; }
 
 /**
  * Site footer

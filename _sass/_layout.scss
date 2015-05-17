@@ -69,8 +69,9 @@
 }
 
 .header-navbar-element {   
-    display: inline-block;
-	min-width: 75px;
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 125px;
 }
 
 .pause {
@@ -119,9 +120,9 @@
 .header-navbar {
     text-align: center;
     margin-left: 180px;
-    line-height: 120px;
     overflow: overlay;
     height: 120px;
+    display: flex;
 }
 
 /**
