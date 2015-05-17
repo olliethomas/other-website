@@ -38,6 +38,10 @@
     margin-left: 180px;
     overflow: overlay;
     height: 120px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
 }
 
