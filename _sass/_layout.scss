@@ -154,6 +154,10 @@
 .social-media-list {
     list-style: none;
     margin-right: 5px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
