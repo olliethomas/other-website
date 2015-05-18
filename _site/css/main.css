@@ -95,18 +95,21 @@ pre {
  */
 .wrapall {
   margin: 5%;
-  display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap; }
 
+.shadow-area {
+  box-shadow: 0px 0px 122px 2px #1d1f21;
+  width: 100%; }
+
 .content {
   width: 100%;
-  box-shadow: 0px 0px 122px 2px #1d1f21;
-  background: #c5c8c6; }
+  background: #c5c8c6;
+  display: -webkit-flex;
+  display: flex; }
 
 .content > * {
   padding: 10px;
@@ -134,16 +137,20 @@ pre {
   margin-left: 180px;
   overflow: overlay;
   height: 120px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
+  isplay: -ms-flexbox;
   display: -webkit-flex;
-  display: flex; }
+  display: flex;
+  justify-content: space-around; }
 
 .header-navbar-element {
   padding-top: 50px;
   padding-left: 10px;
   width: 125px; }
+
+.page-link {
+  color: #c5c8c6;
+  text-decoration: none;
+  flex: 1; }
 
 /**
 * End of Header
@@ -152,7 +159,8 @@ pre {
   padding: 1%; }
 
 .onOff {
-  text-align: right; }
+  text-align: right;
+  width: 100%; }
 
 .site-nav {
   /*order: 2;*/
@@ -169,9 +177,6 @@ pre {
   @media (max-width: 800px) {
     .site-nav {
       flex-direction: column; } }
-  .site-nav .page-link {
-    color: #c5c8c6;
-    flex: 1; }
 
 .pause {
   color: white; }
@@ -215,8 +220,9 @@ pre {
 .footer-wrapper {
   background: #5e8d87;
   border-top: 2px solid #1d1f21;
-  display: flex;
-  flex-wrap: wrap; }
+  /*display: flex;
+  flex-wrap: wrap;*/
+  width: 100%; }
 
 .footer-heading {
   font-size: 18px;
@@ -227,8 +233,6 @@ pre {
 .social-media-list {
   list-style: none;
   margin-right: 5px;
-  display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -239,8 +243,6 @@ pre {
 
 .contact-wrapper {
   width: 100%;
-  display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -304,7 +306,10 @@ pre {
 .post {
   float: right;
   width: 80%;
-  padding: 0; }
+  padding: 0;
+  border-left: #1d1f21;
+  border-left-style: solid;
+  border-left-width: 2px; }
 
 .post-header {
   /*margin-bottom: $spacing-unit;*/ }

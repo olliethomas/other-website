@@ -5,10 +5,12 @@
         
         <canvas id="left" width="640" height="480"></canvas>
                 
-        <div class="wrapall">    
-            {% include header.html %}
-            {{ content }}
-            {% include footer.html %}
+        <div class="wrapall">
+            <div class="shadow-area">
+                {% include header.html %}
+                {{ content }}
+                {% include footer.html %}
+            </div>
             {% include onOff.html %}
         </div>
     </body>

@@ -3,8 +3,6 @@
  */
 .wrapall {
     margin: $std-space;
-    display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -12,10 +10,16 @@
     flex-flow: row wrap;
 }
 
+.shadow-area {
+    box-shadow: 0px 0px 122px 2px $background;
+    width: 100%;
+}
+
 .content {
     width: $content-width;
-    box-shadow: 0px 0px 122px 2px $background;
     background: $foreground;
+    display: -webkit-flex;
+    display: flex;
 }
 
 .content > * {
@@ -47,17 +51,22 @@
     margin-left: 180px;
     overflow: overlay;
     height: 120px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
+    isplay: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    justify-content: space-around;
 }
 
 .header-navbar-element {   
     padding-top: 50px;
     padding-left: 10px;
     width: 125px;
+}
+
+.page-link {
+    color: $foreground;
+    text-decoration: none;
+    flex: 1;
 }
 
 /**
@@ -70,6 +79,7 @@
 
 .onOff {
     text-align: right;
+    width: 100%;
 }
 
 .site-nav {
@@ -91,12 +101,6 @@
     justify-content: flex-start;
     align-items: flex-center;
     line-height: $header-nav-height;    // Vertically centers the text
-
-    .page-link {
-        color: $foreground;
-        //margin-left: $nav-bar-spacing;
-        flex: 1;
-    }
 }
 
 .pause {
@@ -149,8 +153,9 @@
 .footer-wrapper {
     background: $darkcyan;
     border-top: 2px solid $background;
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    width: 100%;
 }
 
 .footer-heading {
@@ -163,8 +168,6 @@
 .social-media-list {
     list-style: none;
     margin-right: 5px;
-    display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -175,9 +178,7 @@
 }
 
 .contact-wrapper {
-    width: 100%;   
-    display: -webkit-box;
-    display: -moz-box;
+    width: 100%;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -259,6 +260,9 @@
     float: right;
     width: 80%;   
     padding: 0;
+    border-left: $background;
+    border-left-style: solid;
+    border-left-width: 2px;
 }
 
 .post-header {
