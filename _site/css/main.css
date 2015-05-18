@@ -126,7 +126,8 @@ pre {
   border-color: #2E8AE6;
   border-width: 4px;
   background: #5e8d87;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%; }
 
 .header-navbar {
   text-align: center;
