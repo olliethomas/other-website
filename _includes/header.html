@@ -8,13 +8,13 @@
        </a>
     </div>
     <div class="header-navbar">
-       {% assign pages = site.pages | sort:"layout-order" %}
-       {% for page in pages %}
-       {% if page.title %}
-       <div class="header-navbar-element"> 
-           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-       </div>
-       {% endif %}
-       {% endfor %}
+        {% assign pages = site.pages | sort:"layout-order" %}
+        {% for page in pages %}
+            {% if page.title and page.title != "University of Sussex Programming Society" %}
+                <div class="header-navbar-element"> 
+                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </div>
+            {% endif %}
+        {% endfor %}
     </div>
 </header>

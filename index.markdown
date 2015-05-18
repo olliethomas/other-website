@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 layout-order: 1
-title: ProgSoc
+title: University of Sussex Programming Society
 ---
 
 Whether you are an experienced programmer, or never done it before and want to

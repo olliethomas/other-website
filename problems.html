@@ -5,12 +5,13 @@ title: Problem Sets
 ---
 
 <ul class="post-list">
-    {% for prob in site.problems %}
+    {% for post in site.problems %}
     <li>
         <span class="post-meta"></span>
         <h2>
-            <a class="post-link" href="{{ prob.url | prepend: site.baseurl }}">{{ prob.title }}</a>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
     </li>
     {% endfor %}
 </ul>

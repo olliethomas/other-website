@@ -19,3 +19,5 @@ highlighter: pygments
 collections:
     problems:
         output: true
+        
+excerpt_separator: ""

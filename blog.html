@@ -10,6 +10,7 @@ title: Blog posts
             <a href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
             </a>
+            <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
         </li>
     {% endfor %}            
 </ul>

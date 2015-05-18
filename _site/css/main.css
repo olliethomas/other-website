@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 p {
-  padding-bottom: 10px; }
+  padding: 10px; }
 
 /**
  * Blockquotes
@@ -94,11 +94,19 @@ pre {
  * Global wrappers
  */
 .wrapall {
-  margin: 5%; }
+  margin: 5%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap; }
 
 .content {
   width: 100%;
-  box-shadow: 0px 0px 122px 2px #1d1f21; }
+  box-shadow: 0px 0px 122px 2px #1d1f21;
+  background: #c5c8c6; }
 
 .content > * {
   padding: 10px;
@@ -125,6 +133,10 @@ pre {
   margin-left: 180px;
   overflow: overlay;
   height: 120px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex; }
 
 .header-navbar-element {
@@ -214,14 +226,26 @@ pre {
 .social-media-list {
   list-style: none;
   margin-right: 5px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-around; }
 
 .contact-wrapper {
   width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-around; }
 
@@ -241,7 +265,9 @@ pre {
   padding-right: 10px; }
 
 .uslogo {
-  padding: 0px;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-right: 10px;
   width: 100px;
   height: auto; }
 
