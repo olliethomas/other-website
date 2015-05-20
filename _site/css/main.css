@@ -39,7 +39,7 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+ol {
   margin-left: 30px; }
 
 li > ul,
@@ -167,9 +167,21 @@ pre {
   flex-wrap: wrap;
   justify-content: space-around; }
 
+.header-page-list {
+  list-style: none;
+  margin-right: 5px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
 .header-navbar-element {
-  padding-left: 10px;
-  min-width: 125px;
+  min-width: 130px;
   line-height: 40px; }
 
 .page-link {
@@ -253,8 +265,7 @@ pre {
 
 .contact-list,
 .description-list,
-.social-media-list,
-.header-page-list {
+.social-media-list {
   list-style: none;
   margin-right: 5px;
   display: -webkit-box;
@@ -265,7 +276,8 @@ pre {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-left: 30px; }
 
 .contact-wrapper {
   width: 100%;
