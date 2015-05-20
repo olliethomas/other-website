@@ -165,7 +165,8 @@ pre {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;*/
-  justify-content: space-around; }
+  justify-content: space-around;
+  -webkit-justify-content: space-around; }
 
 .header-page-list {
   list-style: none;
@@ -178,6 +179,7 @@ pre {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-around;
+  -webkit-justify-content: space-around;
   margin-left: 0; }
 
 .header-navbar-element {
@@ -206,6 +208,7 @@ pre {
   background: #1d1f21;
   flex-wrap: wrap;
   justify-content: flex-start;
+  -webkit-justify-content: flex-start;
   align-items: flex-center;
   line-height: 50px; }
   @media (min-width: 800px) {
@@ -248,7 +251,8 @@ pre {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  -webkit-justify-content: space-around; }
 
 /**
  * Site footer
@@ -278,6 +282,7 @@ pre {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-around;
+  -webkit-justify-content: space-around;
   margin-left: 30px; }
 
 .contact-wrapper {
@@ -292,6 +297,7 @@ pre {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-around;
+  -webkit-justify-content: space-around;
   overflow: hidden; }
 
 .contact-element {
