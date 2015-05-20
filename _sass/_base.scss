@@ -13,6 +13,7 @@ dl, dd, ol, ul, figure {
  */
 body {
     font-family: $base-font-family;
+    min-width: $on-laptop;
 }
 /**
  * Images

@@ -3,6 +3,8 @@
  */
 .wrapall {
     margin: $std-space;
+    display: -webkit-box;
+    display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -51,7 +53,9 @@
     margin-left: 180px;
     overflow: overlay;
     height: 120px;
-    isplay: -ms-flexbox;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     justify-content: space-around;
@@ -168,6 +172,8 @@
 .social-media-list {
     list-style: none;
     margin-right: 5px;
+    display: -webkit-box;
+    display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -178,7 +184,9 @@
 }
 
 .contact-wrapper {
-    width: 100%;
+    width: 100%;   
+    display: -webkit-box;
+    display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;

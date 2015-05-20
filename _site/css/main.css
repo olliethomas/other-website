@@ -11,7 +11,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Source Code Pro"; }
+  font-family: "Source Code Pro";
+  min-width: 800px; }
 
 /**
  * Images
@@ -95,6 +96,8 @@ pre {
  */
 .wrapall {
   margin: 5%;
+  display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -137,7 +140,9 @@ pre {
   margin-left: 180px;
   overflow: overlay;
   height: 120px;
-  isplay: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   justify-content: space-around; }
@@ -233,6 +238,8 @@ pre {
 .social-media-list {
   list-style: none;
   margin-right: 5px;
+  display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -243,6 +250,8 @@ pre {
 
 .contact-wrapper {
   width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
