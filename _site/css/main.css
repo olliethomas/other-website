@@ -39,7 +39,7 @@ figcaption {
 /**
  * Lists
  */
-ol {
+ul, ol {
   margin-left: 30px; }
 
 li > ul,
