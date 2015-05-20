@@ -177,7 +177,8 @@ pre {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-left: 0; }
 
 .header-navbar-element {
   min-width: 130px;
