@@ -81,7 +81,6 @@
 
 .header-page-list {
     list-style: none;
-    margin-right: 5px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -97,6 +96,7 @@
     //padding-left: 10px;
     min-width: 130px;
     line-height: 40px;
+    text-align: center;
 }
 
 .page-link {

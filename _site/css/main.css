@@ -11,7 +11,6 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 html {
-  min-width: 350px;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -170,7 +169,6 @@ pre {
 
 .header-page-list {
   list-style: none;
-  margin-right: 5px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -183,7 +181,8 @@ pre {
 
 .header-navbar-element {
   min-width: 130px;
-  line-height: 40px; }
+  line-height: 40px;
+  text-align: center; }
 
 .page-link {
   color: #c5c8c6;
