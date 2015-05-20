@@ -57,32 +57,32 @@
  * Site header
  */
 .header-wrapper {
-    height: 120px;
 	border-bottom-style: solid;
     border-color: #2E8AE6;
 	border-width: 4px;
 	background: $darkcyan;
-	overflow: hidden;
     width: 100%;
 }
 
 .header-navbar {
     text-align: center;
-    margin-left: 180px;
     overflow: overlay;
-    height: 120px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .header-navbar-element {   
-    padding-top: 50px;
     padding-left: 10px;
     min-width: 125px;
+    line-height: 40px;
 }
 
 .page-link {
@@ -133,9 +133,9 @@
  * Site nav
  */
 .header-logo {
-    width: 180px;
+    width: 100%;
     overflow: hidden;
-    float: left;
+    text-align: center;
 }    
 
 #logo {
@@ -187,7 +187,8 @@
 
 .contact-list,
 .description-list,
-.social-media-list {
+.social-media-list,
+.header-page-list {
     list-style: none;
     margin-right: 5px;
     display: -webkit-box;

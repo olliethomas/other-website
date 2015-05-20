@@ -8,6 +8,35 @@
        </a>
     </div>
     <div class="header-navbar">
+        <ul class="header-page-list">
+            {% assign pages = site.pages | sort:"layout-order" %}
+            {% for page in pages %}
+                {% if page.title and page.title != "University of Sussex Programming Society" %}
+                    <div>
+                        <li class="header-navbar-element"> 
+                            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+                                {{ page.title }}
+                            </a>
+                        </li>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</header>
+
+
+<!--
+<header class="header-wrapper">
+    <div class="header-logo">
+        <a href="{{ site.baseurl }}/index.html" id="logoLink">
+            <svg id="logo">
+                <circle id="circle" cx="50%" cy="50%" r="50px" fill="#2E8AE6" />
+                <text x="10%" y="55%" font-family="sans-serif" fill="white">{Prog_Soc}</text>
+            </svg>
+       </a>
+    </div>
+    <div class="header-navbar">
         {% assign pages = site.pages | sort:"layout-order" %}
         {% for page in pages %}
             {% if page.title and page.title != "University of Sussex Programming Society" %}
@@ -18,3 +47,4 @@
         {% endfor %}
     </div>
 </header>
+-->
