@@ -20,11 +20,29 @@
 .content {
     width: $content-width;
     background: $foreground;
+    //display: -webkit-flex;
+    //display: flex;
+}
+
+.content > * {
+    padding: $paddingsize;
+    padding: $paddingsize;
+    /**/
+    background: $foreground;
+    color: $background;
+    /*flex: 3;*/
+    order: 1;
+    //flex-basis: $content-section-width;
+}
+
+.post-content-area {
+    width: $content-width;
+    background: $foreground;
     display: -webkit-flex;
     display: flex;
 }
 
-.content > * {
+.post-content-area > * {
     padding: $paddingsize;
     padding: $paddingsize;
     /**/
@@ -64,7 +82,7 @@
 .header-navbar-element {   
     padding-top: 50px;
     padding-left: 10px;
-    width: 125px;
+    min-width: 125px;
 }
 
 .page-link {

@@ -11,9 +11,17 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
+html {
+    min-width: $on-laptop;    
+    width: 100%;
+	height:100%;
+	margin: 0;
+	overflow:auto;
+}
+
 body {
     font-family: $base-font-family;
-    min-width: $on-laptop;
 }
 /**
  * Images
