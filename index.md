@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landingpage
 layout-order: 1
 title: University of Sussex Programming Society
 ---

@@ -17,11 +17,24 @@
     width: 100%;
 }
 
+.landing-wrapper {
+    background: $foreground;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.landing-content {
+    width: $landing-content-width;
+    background: $foreground;
+    float: left;
+}
+
 .content {
     width: $content-width;
     background: $foreground;
-    //display: -webkit-flex;
-    //display: flex;
 }
 
 .content > * {
@@ -347,4 +360,18 @@
     padding: 0;
     overflow: hidden;
     overflow-wrap: break-word;
+}
+
+.side-nav {
+    padding-left: 10px;
+    width: $side-nav-width;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    background: $foreground;
+    border-left: $background;
+    border-left-style: solid;
+    border-left-width: 2px;
 }
