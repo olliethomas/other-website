@@ -10,7 +10,7 @@
     
     const cellSize = 25;
 
-    var paused = false;
+    var paused = true;
 
     var canvas = $("#left")[0];
     var ctx = canvas.getContext("2d");
@@ -52,7 +52,7 @@
         if (!paused) {
             setTimeout(function() {
                 window.requestAnimationFrame(animate);
-            }, 60);
+            }, 120);
         }
     }
 

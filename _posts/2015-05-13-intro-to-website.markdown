@@ -2,7 +2,7 @@
 layout: post
 title: "How to post on this website!"
 date: 2015-05-13 18:33:41
-categories: internal posting
+category: blog
 author: "Felix Bowman"
 ---
 

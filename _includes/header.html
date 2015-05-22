@@ -11,7 +11,7 @@
         <ul class="header-page-list">
             {% assign pages = site.pages | sort:"layout-order" %}
             {% for page in pages %}
-                {% if page.title and page.title != "University of Sussex Programming Society" %}
+                {% if page.title and page.title != "University of Sussex Programming Society" and page.title != "Uh-oh 404" %}
                     <div>
                         <li class="header-navbar-element"> 
                             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">

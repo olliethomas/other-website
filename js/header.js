@@ -35,6 +35,6 @@ function circleColor() {
     /**Forum**/
     if (window.location.href.indexOf("projects") > -1) {
         document.getElementById("circle").style.fill = colours[5];
-        document.getElementById("header-wrapper").style.borderColor = colours[0];
+        document.getElementById("header-wrapper").style.borderColor = colours[5];
     }
 }

@@ -2,10 +2,12 @@
 layout: page
 layout-order: 4
 title: Problem Sets
+category: problem
 ---
 
 <ul class="post-list">
-    {% for post in site.problems %}
+    {% for post in site.posts %}
+    {% if post.category == page.category %}
     <li>
         <span class="post-meta"></span>
         <h2>
@@ -13,5 +15,6 @@ title: Problem Sets
         </h2>
         <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
     </li>
+    {% endif %}
     {% endfor %}
 </ul>

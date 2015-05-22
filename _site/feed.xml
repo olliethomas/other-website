@@ -6,9 +6,84 @@
 </description>
     <link>http://yourdomain.com/other-website/</link>
     <atom:link href="http://yourdomain.com/other-website/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 May 2015 18:48:38 +0100</pubDate>
-    <lastBuildDate>Wed, 20 May 2015 18:48:38 +0100</lastBuildDate>
+    <pubDate>Fri, 22 May 2015 01:24:18 +0100</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 01:24:18 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Problem Four</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.codeeval.com/open_challenges/64/&quot;&gt;Problem Four&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You are climbing a stair case. It takes n steps to reach to the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;INPUT SAMPLE:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Your program should accept as its first argument a path to a filename. Each line in this file contains a positive integer which is the total number of stairs. Ignore all empty lines.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;1) 10&lt;/p&gt;
+
+&lt;p&gt;2) 20&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OUTPUT SAMPLE:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Print out the number of ways to climb to the top of the staircase.&lt;/p&gt;
+
+&lt;p&gt;1) 89&lt;/p&gt;
+
+&lt;p&gt;2) 10946&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 May 2015 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/other-website/problem/2015/05/20/2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/problem/2015/05/20/2.html</guid>
+        
+        
+        <category>problem</category>
+        
+      </item>
+    
+      <item>
+        <title>Problem Three</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.codeeval.com/open_challenges/174/&quot;&gt;Problem Three&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Long serious texts are boring. Write a program that will make texts more informal: replace every other end punctuation mark (period ‘.’, exclamation mark ‘!’, or question mark ‘?’) with one of the following slang phrases, selecting them one after another:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;’, yeah!’&lt;/li&gt;
+  &lt;li&gt;’, this is crazy, I tell ya.’&lt;/li&gt;
+  &lt;li&gt;’, can I believe this?’&lt;/li&gt;
+  &lt;li&gt;’, eh?’&lt;/li&gt;
+  &lt;li&gt;’, aw yea.’&lt;/li&gt;
+  &lt;li&gt;’, yo.’&lt;/li&gt;
+  &lt;li&gt;’? No way!’&lt;/li&gt;
+  &lt;li&gt;’. Awesome!’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;INPUT SAMPLE:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The first argument is a file that contains a text.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet. Mea et habeo doming praesent. Te inani utroque recteque has, sea ne fugit verterem! Usu ei scripta phaedrum, an sed salutatus definiebas? Qui ut recteque gloriatur reformidans. Qui solum aeque sapientem cu. Eu nam nusquam quaestio principes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OUTPUT SAMPLE:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Print to stdout the results: the text with slang phrases.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet. Mea et habeo doming praesent, yeah! Te inani utroque recteque has, sea ne fugit verterem! Usu ei scripta phaedrum, an sed salutatus definiebas, this is crazy, I tell ya. Qui ut recteque gloriatur reformidans. Qui solum aeque sapientem cu, can U believe this? Eu nam nusquam quaestio principes.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 May 2015 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/other-website/problem/2015/05/20/1.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/problem/2015/05/20/1.html</guid>
+        
+        
+        <category>problem</category>
+        
+      </item>
     
       <item>
         <title>How to post on this website!</title>
@@ -65,13 +140,11 @@ post. I’ll write about that soon.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 13 May 2015 19:33:41 +0100</pubDate>
-        <link>http://yourdomain.com/other-website/internal/posting/2015/05/13/intro-to-website.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/other-website/internal/posting/2015/05/13/intro-to-website.html</guid>
+        <link>http://yourdomain.com/other-website/blog/2015/05/13/intro-to-website.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/blog/2015/05/13/intro-to-website.html</guid>
         
         
-        <category>internal</category>
-        
-        <category>posting</category>
+        <category>blog</category>
         
       </item>
     
@@ -90,13 +163,11 @@ post. I’ll write about that soon.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 13 May 2015 02:06:02 +0100</pubDate>
-        <link>http://yourdomain.com/other-website/code/inclusion/2015/05/13/some-more.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/other-website/code/inclusion/2015/05/13/some-more.html</guid>
+        <link>http://yourdomain.com/other-website/blog/2015/05/13/some-more.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/blog/2015/05/13/some-more.html</guid>
         
         
-        <category>code</category>
-        
-        <category>inclusion</category>
+        <category>blog</category>
         
       </item>
     
@@ -106,13 +177,11 @@ post. I’ll write about that soon.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 13 May 2015 01:52:44 +0100</pubDate>
-        <link>http://yourdomain.com/other-website/first/post/2015/05/13/felix-own-post.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/other-website/first/post/2015/05/13/felix-own-post.html</guid>
+        <link>http://yourdomain.com/other-website/blog/2015/05/13/felix-own-post.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/blog/2015/05/13/felix-own-post.html</guid>
         
         
-        <category>first</category>
-        
-        <category>post</category>
+        <category>blog</category>
         
       </item>
     
@@ -134,13 +203,82 @@ post. I’ll write about that soon.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 12 May 2015 23:53:06 +0100</pubDate>
-        <link>http://yourdomain.com/other-website/jekyll/update/2015/05/12/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/other-website/jekyll/update/2015/05/12/welcome-to-jekyll.html</guid>
+        <link>http://yourdomain.com/other-website/blog/2015/05/12/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/blog/2015/05/12/welcome-to-jekyll.html</guid>
         
         
-        <category>jekyll</category>
+        <category>blog</category>
         
-        <category>update</category>
+      </item>
+    
+      <item>
+        <title>Problem Two</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.codeeval.com/open_challenges/190/&quot;&gt;Problem Two&lt;/a&gt;
+Alice has invented a new card game to play with Bob. Alice made a deck of cards with random values between 1 and 52. Bob picks 5 cards. Then, he has to rearrange the cards so that by utilizing the operations plus, minus, or times, the value of the cards reach Alice’s favorite number, 42. More precisely, find operations such that ((((val1 op1 val2) op2 val3) op3 val4) op4 val5) = 42.&lt;/p&gt;
+
+&lt;p&gt;Help Bob by writing a program to determine whether it is possible to reach 42 given 5 card values.&lt;/p&gt;
+
+&lt;p&gt;For example, Bob picks 5 cards out of the deck containing 60, 1, 3, 5, and 20. Bob rearranges the cards and supplies four operations, so that 5 * 20 - 60 + 3 - 1 = 42.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;INPUT SAMPLE:&lt;/strong&gt;
+The input consists of five integers on a line, separated by spaces. Each integer V is 0 &amp;lt;= V &amp;lt;= 52.&lt;/p&gt;
+
+&lt;p&gt;1) 44 6 1 49 47&lt;/p&gt;
+
+&lt;p&gt;2) 34 1 49 2 21&lt;/p&gt;
+
+&lt;p&gt;3) 31 38 27 51 18&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OUTPUT SAMPLE:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For each test case print a line containing “YES” if it is possible to reach the value 42 according to the rules of the game, or “NO” otherwise.&lt;/p&gt;
+
+&lt;p&gt;1) NO&lt;/p&gt;
+
+&lt;p&gt;2) YES&lt;/p&gt;
+
+&lt;p&gt;3) NO&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Apr 2015 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/other-website/problem/2015/04/27/2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/problem/2015/04/27/2.html</guid>
+        
+        
+        <category>problem</category>
+        
+      </item>
+    
+      <item>
+        <title>Problem One</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.codeeval.com/open_challenges/10/&quot;&gt;Problem One&lt;/a&gt;
+Write a program which determines the Mth to the last element in a list.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;INPUT SAMPLE:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The first argument is a path to a file. The file contains the series of space delimited characters followed by an integer. The integer represents an index in the list (1-based), one per line.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;1) a b c d 4&lt;/p&gt;
+
+&lt;p&gt;2) e f g h 2&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OUTPUT SAMPLE:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Print to stdout the Mth element from the end of the list, one per line. If the index is larger than the number of elements in the list, ignore that input.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;1) a&lt;/p&gt;
+
+&lt;p&gt;2) g&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Apr 2015 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/other-website/problem/2015/04/27/1.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-website/problem/2015/04/27/1.html</guid>
+        
+        
+        <category>problem</category>
         
       </item>
     

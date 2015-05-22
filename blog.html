@@ -2,15 +2,18 @@
 layout: page
 layout-order: 2
 title: Blog posts
+category: blog
 ---
 
 <ul class="post-list">
     {% for post in site.posts %}
+    {% if post.category == page.category %}
         <li>
             <a href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
             </a>
             <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
         </li>
+    {% endif %}
     {% endfor %}            
 </ul>

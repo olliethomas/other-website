@@ -1,19 +1,16 @@
 ---
 layout: page
 layout-order: 7
-title: Our Members
+title: Our Committee
 ---
 
-<h2>
-    Committee
-</h2>
 <ul>
     {% for member in site.data.members.commitee %}
     <li>
         <h3>
             {{ member.title }}
         </h3>
-        {{ member.name }}<br>
+        <a href="mailto:{{ member.email }}">{{ member.name }}</a><br>
         {% if member.github %}
         <a href="https://github.com/{{ member.github }}">
             {{ member.name }}'s Github
@@ -22,6 +19,3 @@ title: Our Members
     </li>
     {% endfor %}
 </ul>
-<h2>
-    Members
-</h2>

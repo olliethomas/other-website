@@ -1,11 +1,10 @@
 ---
-layout: problem
-title: Problem Set Two
+layout: post
+title: Problem One
+category: problem
 ---
 
-###27th April 2015
-
-[Problem Two](https://www.codeeval.com/open_challenges/10/)
+[Problem One](https://www.codeeval.com/open_challenges/10/)
 Write a program which determines the Mth to the last element in a list.
 
 **INPUT SAMPLE:**

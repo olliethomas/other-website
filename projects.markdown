@@ -5,4 +5,12 @@ title: Projects
 permalink: /projects/
 ---
 
-We are going to do a lot of projects, we promise. More to come soon.
+**This Website**
+
+This website was written by members of the programming society. It's source code can be viewed [here](https://github.com/sussex-progsoc/Website)
+
+Please feel free to add/amend and generally improve
+
+**Other Projects**
+
+Coming Soon!
